@@ -1,0 +1,7 @@
+terraform import routeros_interface_bridge.Management "**1A"
+terraform import routeros_interface_bridge_port.Management_ether2 "**2"
+terraform import routeros_interface_bridge_port.Management_wlan1 "**3"
+terraform import routeros_interface_bridge_port.Management_wlan2 "**4"
+terraform import routeros_interface_bridge_port.Management_ether3 "**7"
+terraform import routeros_interface_bridge_port.Management_ether4 "**8"
+terraform import routeros_interface_bridge_port.Management_ether5 "**9"

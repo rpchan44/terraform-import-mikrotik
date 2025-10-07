@@ -1,0 +1,20 @@
+#!/bin/bash
+set -e
+
+terraform import routeros_routing_table.EDW '*400'
+terraform import routeros_routing_table.J_J '*401'
+terraform import routeros_routing_table.CN '*402'
+terraform import routeros_routing_table.VX '*403'
+terraform import routeros_routing_table.Z1 '*404'
+terraform import routeros_routing_table.LC '*405'
+terraform import routeros_routing_table.ISP1 '*40F'
+terraform import routeros_routing_table.ISP2 '*410'
+terraform import routeros_routing_rule.rule_4 '*4'
+terraform import routeros_routing_rule.rule_10 '*10'
+terraform import routeros_ip_route.r_0_0_0_0_0_10_0_0_6 '*8000013B'
+terraform import routeros_ip_route.r_0_0_0_0_0_10_0_0_2 '*80000157'
+terraform import routeros_ip_route.r_0_0_0_0_0_10_0_0_4 '*8000016B'
+terraform import routeros_ip_route.r_0_0_0_0_0_VPN__LC '*800001E7'
+terraform import routeros_ip_route.r_192_168_65_100_32_VPN__JJ '*80000175'
+terraform import routeros_ip_route.r_192_168_99_0_24_10_0_0_4 '*8000017E'
+terraform import routeros_ip_route.r_0_0_0_0_0_10_0_0_10 '*8000014D'
